@@ -2,10 +2,5 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-body {
-  background-color: #222;
-}
-
-.top a {
-  color: red;
-}
+// Custom bootstrap variables must be set or imported *before* bootstrap.
+@import "bootstrap";

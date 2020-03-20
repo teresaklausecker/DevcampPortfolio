@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <title><%= @page_title %></title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
@@ -9,9 +10,9 @@
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-  </head>
+</head>
 
-  <body>
+<body>
     <p class="notice"><%= notice %></p>
     <p class="alert"><%= alert %></p>
 
@@ -21,6 +22,9 @@
 
     <%= yield %>
 
+    <%= copyright_generator %>
+
     <%= source_helper("application") %>
-  </body>
+</body>
+
 </html>

@@ -37,4 +37,8 @@ module ApplicationHelper
       content_tag(:p, greeting, class: "source_greeting")
     end
   end
+
+  def copyright_generator
+    BaflViewTool::Renderer.copyright 'Florian', 'All rights reserved'
+  end
 end
