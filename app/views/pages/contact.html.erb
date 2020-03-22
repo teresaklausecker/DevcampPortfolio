@@ -1,5 +1,15 @@
-<h1>Pages#contact</h1>
-<p>Find me in app/views/pages/contact.html.erb</p>
-<p><%= number_to_phone "022661326628" %></p>
-<p><%= number_to_percentage "23480.4" %></p>
-<p><%= number_with_delimiter "543643564356453645" %></p>
+<h1>Contact</h1>
+<hr>
+<div class= "row">
+    <div class= "col-md-6">
+        <h3>Adress</h3>
+        <p>Traunsteinhaus Nr.1</p>
+        <h3>Phone</h3>
+        <p><%= number_to_phone "123456789"%></p>
+        <h3>Email</h3>
+        <p><a href="mailto:testemail@fake.com?subject=DevcampPortfolio" "email me">Email me</a></p>
+    </div>
+    <div class="col-md-6">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7354.213132361069!2d13.825207262725888!3d47.872597668003166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47715630f6084b97%3A0x11fc4c173559831b!2sTraunsteinhaus!5e0!3m2!1sde!2sat!4v1584884249978!5m2!1sde!2sat" width="700" height="350" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </div>
+</div>
