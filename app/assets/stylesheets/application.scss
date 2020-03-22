@@ -161,3 +161,24 @@ body {
     width: 55rem;
   }
 }
+
+/* Custom styles */
+
+
+/* My own changes */
+.card-block h3, .card-block h2 {
+  color: #2f6c7091
+}
+/* Solution for missing margin left */
+.card-block{
+  padding: 1rem;
+}
+
+/* JORDAN */
+.card-block, {
+  color: black; text-align:left; 
+}
+
+.auth-links a {
+  color: black;
+}
