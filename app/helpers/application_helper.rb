@@ -1,5 +1,5 @@
 module ApplicationHelper
-  def login_helper style = "nav-link"
+  def login_helper style = ""
     if current_user.is_a?(GuestUser)
       (link_to "Login", new_user_session_path, class: style) +
       " ".html_safe +
