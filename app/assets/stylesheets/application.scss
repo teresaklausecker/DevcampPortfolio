@@ -170,13 +170,14 @@ body {
   color: #2f6c7091
 }
 /* Solution for missing margin left */
-.card-block{
+.card-block {
   padding: 1rem;
 }
 
 /* JORDAN */
-.card-block, {
-  color: black; text-align:left; 
+.card-block {
+  color: black;
+  text-align:left; 
 }
 
 .auth-links a {
@@ -185,4 +186,10 @@ body {
 
 .register-text {
   text-align: center;
+}
+
+.login > .card {
+  width: 22rem;
+  margin: 0 auto;
+  float: none;
 }
