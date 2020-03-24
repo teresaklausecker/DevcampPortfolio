@@ -20,7 +20,7 @@
     <%# end of navigation %>
 
     <%# end of masthead %>
-    <%= render 'shared/portfolio_masthead' %>
+    <%= render 'shared/portfolio_masthead' unless logged_in?(:site_admin) %>
     <%# end of masthead %>
 
     <p class="notice"><%= notice %></p>
