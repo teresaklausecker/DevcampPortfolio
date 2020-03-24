@@ -1,8 +1,10 @@
 <footer class="text-muted">
   <div class="container">
     <p class="float-right">
-      <a href="#">Back to top</a>
+      <%= link_to "View all Portfolio Items", portfolios_path %>
+      <a href="#"><%= fa_icon "arrow-circle-up", class: "fa-3x fa-pull-right" %></a>
     </p>
+    <p>
       <%= copyright_generator %>
     </p>
   </div>
