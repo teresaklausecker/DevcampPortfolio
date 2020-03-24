@@ -24,8 +24,7 @@ class User < ApplicationRecord
   end
 end
 
-## Example for Error catching
-#
+# # Example for saver Errorcatching
 # def get_facebook_messages
 #   begin
 #     contacts_fb.oops

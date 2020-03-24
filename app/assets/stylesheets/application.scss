@@ -162,22 +162,18 @@ body {
   }
 }
 
-/* Custom styles */
+/*
+ * Custom Styles
+ */
 
-
-/* My own changes */
-.card-block h3, .card-block h2 {
-  color: #2f6c7091
-}
-/* Solution for missing margin left */
-.card-block {
+/* Adjustion to align like Jordan */
+.card-block{
   padding: 1rem;
 }
 
-/* JORDAN */
-.card-block {
+.card-block{
   color: black;
-  text-align:left; 
+  text-align: left;
 }
 
 .auth-links a {
