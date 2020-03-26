@@ -66,3 +66,4 @@ gem 'petergate', '~> 1.7'
 
 gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.5'
 gem 'kaminari', '~> 1.2'
+gem 'jquery-ui-rails', '~> 6.0', '>= 6.0.1'
