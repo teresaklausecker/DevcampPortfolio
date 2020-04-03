@@ -25,3 +25,9 @@
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
+
+# Ignore videos and images
+app/assets/videos/*
+app/assets/images/*
+
+/.env
