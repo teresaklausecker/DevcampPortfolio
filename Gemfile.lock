@@ -262,7 +262,7 @@ DEPENDENCIES
   bootsnap (>= 1.1.0)
   bootstrap (~> 4.0.0alpha6)
   byebug
-  carrierwave (~> 2.0.2)
+  carrierwave (~> 2.0.2p)
   carrierwave-aws (~> 1.4)
   coffee-rails (~> 4.2)
   devise (~> 4.7, >= 4.7.1)

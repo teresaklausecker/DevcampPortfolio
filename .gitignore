@@ -29,3 +29,5 @@
 # Ignore videos and images
 app/assets/videos/*
 app/assets/images/*
+
+/.env
