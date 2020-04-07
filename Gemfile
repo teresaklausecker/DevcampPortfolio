@@ -59,7 +59,7 @@ gem 'friendly_id', '~> 5.1.0'
 gem 'devise', '~> 4.7', '>= 4.7.1'
 gem 'ostruct'
 
-gem 'bootstrap', '~> 4.0.0alpha6'
+gem 'bootstrap', '~> 4.3'
 gem 'jquery-rails'
 gem 'execjs', '~> 2.7'
 gem 'bafl_view_tool', '~> 0.1.0'
